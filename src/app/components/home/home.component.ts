@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import{ShomeService} from '../../services/shome.service'
-
 import {AuthService} from '../../services/auth.service'
 @Component({
   selector: 'app-home',
@@ -9,7 +7,7 @@ import {AuthService} from '../../services/auth.service'
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private sh: ShomeService, private Auth: AuthService) { }
+  constructor( private Auth: AuthService) { }
 
   ngOnInit() {
   }
