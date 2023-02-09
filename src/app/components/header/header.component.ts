@@ -12,11 +12,9 @@ export class HeaderComponent implements OnInit {
   constructor(private auth : AuthService) { }
 
   ngOnInit() {
-    alert(this.auth.Logged);
   }
 
   loggOut() {
-    alert('Logged Out !!!');
     this.auth.Logged = false;
   }
 

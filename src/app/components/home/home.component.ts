@@ -13,7 +13,6 @@ export class HomeComponent implements OnInit {
   }
 
   login() {
-    alert('Logged !!!');
     this.Auth.Logged = true;
   }
 

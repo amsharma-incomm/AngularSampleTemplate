@@ -7,12 +7,25 @@
 
           <div class="col-lg-6 mbr-col-md-10" (click)="login()">
               <div class="wrap">
-                  <div class="ico-wrap">
-                      <span class="mbr-iconfont fa-volume-up fa"></span>
+                <form>
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form2Example1" class="form-control" />
+                    <label class="form-label" for="form2Example1">Email address</label>
                   </div>
-                  <div class="text-wrap vcenter">
-                      <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">LogIn</h2>
+
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <input type="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2">Password</label>
                   </div>
+
+
+                  <!-- Submit button -->
+                  <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                </form>
+
               </div>
           </div>
 
